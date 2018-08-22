@@ -50,21 +50,6 @@
     </platform>
 
 
-    <!-- wp8 -->
-    <platform name="wp8">
-        <config-file target="config.xml" parent="/*">
-            <feature name="SocketsForCordova">
-                <param name="wp-package" value="Blocshop.ScoketsForCordova.SocketPlugin"/>
-            </feature>
-        </config-file>
-
-		<source-file src="src/wp8/src/SocketAdapter.cs" target-dir="src" />
-		<source-file src="src/wp8/src/SocketAdapterOptions.cs" target-dir="src" />
-		<source-file src="src/wp8/src/SocketExtensions.cs" target-dir="src" />
-		<source-file src="src/wp8/src/SocketPlugin.cs" target-dir="src" />
-		<source-file src="src/wp8/src/SocketEvent.cs" target-dir="src" />
-		<source-file src="src/wp8/src/SocketStorage.cs" target-dir="src" />
-    </platform>
 
         
 
